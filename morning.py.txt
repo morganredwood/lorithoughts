@@ -1,0 +1,59 @@
+morning.py:
+    
+
+    def alarm():
+        print("It's time to get up.")
+        ding = pygame.mixer.Sound("ding.mp3")
+        ding.play()
+        dingding = ding.play()
+        while True:
+            if not dingding.get_busy():
+                break
+            else:
+                continue   
+
+ 
+# This will make you see the text "It's time to get up."
+# As you see the text, you will hear ding.mp3 playing.
+
+
+    def wake():
+        print(alarm)
+        while True:
+            if not alarm.get_busy():
+                break
+            else:
+                continue
+        print("You are awake.")
+
+
+# This will make you see the text "It's time to get up."
+# As you see the text, you will hear ding.mp3 playing.
+# Once ding.mp3 stops playing, you will see the words "You are awake."
+
+
+
+    def potty():
+        print(wake)
+        while True:
+            if not wake.get_busy():
+                break
+            else:
+                continue
+        print("You get up to go potty.")
+
+
+# This will make you see the text "It's time to get up."
+# As you see the text, you will hear ding.mp3 playing.
+# Once ding.mp3 stops playing, you will see the words "You are awake."
+# Once the words "You are awake" appear, you see the words "You get up to go potty."
+
+import morning
+morning.init():
+print(potty)
+
+
+
+
+
+
