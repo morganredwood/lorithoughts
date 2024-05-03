@@ -3,7 +3,7 @@ Imagining executive function as code is one way I've learned to sort through my 
 <br>
 <br>
 <b>dog_go_potty.py</b>
-<br>some decisions involved in housetraining a dog
+<br>&#160;&#160;&#160;&#160;&#160;some decisions involved in housetraining a dog
 <br><br><b>Python Subroutines.mp4</b>
 <br>&#160;&#160;&#160;&#160;&#160;screen recording of subroutines.py before using pygame
 <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<b>subroutines.py</b>
