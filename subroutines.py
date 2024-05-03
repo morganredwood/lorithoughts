@@ -1,4 +1,8 @@
 from time import sleep
+import pygame
+pygame.init()
+subs = pygame.mixer.Sound("subs.mp3")
+subs.play()
 print('   ')
 print('   ')
 print('   ')
